@@ -1,0 +1,380 @@
+body {
+  background-color: #111111;
+  margin: 0;
+  font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+h1 {
+  color: #21c452;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15{
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+h2::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 22px;
+  background-color: #21c452;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 22px;
+  background-color: #21c452;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+h4::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 22px;
+  background-color: #21c452;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+h5::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 22px;
+  background-color: #21c452;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+h6::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 22px;
+  background-color: #21c452;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+h7::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 22px;
+  background-color: #21c452;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+h8::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 22px;
+  background-color: #21c452;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+h9::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 22px;
+  background-color: #21c452;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+h10::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #21c452;
+  font-size: 20px;
+}
+
+h11::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #21c452;
+  font-size: 20px;
+}
+
+h12::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #21c452;
+  font-size: 20px;
+}
+
+h13::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #21c452;
+  font-size: 20px;
+}
+
+h14::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #21c452;
+  font-size: 20px;
+}
+
+h15::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #21c452;
+  font-size: 20px;
+}
+
+
+
+p {
+  color: #ffffff;
+  text-align: left;
+}
+
+
+
+li {
+  color: #ffffff;
+}
+
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+}
+
+li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #21c452;
+  font-size: 20px;
+}
+
+.artist-section {
+  margin: 220px 0;
+  padding: 60px;
+  background-color: #151515;
+  border-radius: 20px;
+}
+
+
+
+.bloc {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+.bloc img {
+  width: 500px;
+  border-radius: 12px;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #21c452;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.spotify-scroll iframe {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  visibility: hidden;
+}
+
+.spotify-scroll iframe.show {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.spotify-scroll iframe {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.spotify-scroll iframe.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.spotify-scroll iframe:hover {
+  box-shadow: 0 0 0 1px #21c452;
+}
+
+.spotify-scroll iframe {
+  border: 1px solid rgba(33, 196, 82, 0.25);
+}
+
+.footer {
+  margin-top: 120px;
+  padding: 50px 20px;
+  background-color: #0d0d0d;
+  border-top: 1px solid #21c452;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 40px;
+  font-family: "Special Gothic Expanded One";
+}
+
+.footer-section h4 {
+  color: #21c452;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.footer-section a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #21c452;
+}
+
+.footer-section p {
+  font-size: 12px;
+  color: #bdbdbd;
+  margin: 4px 0;
+}
+
+.credits {
+  text-align: center;
+}
+
+.credits {
+  text-align: left;
+}
+
+span {
+  display: block;
+  font-size: 12px;
+  color: #bdbdbd;
+  margin-bottom: 8px;
+}
+
+
+@keyframes lineGrow {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #1f1f1f;
+  text-align: center;
+  font-size: 11px;
+  color: #888;
+  font-family: "Special Gothic Expanded One";
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  background-color: #21c452;
+  color: #111;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-top.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0%;
+  background-color: #21c452;
+  z-index: 9999;
+  transition: width 0.1s linear;
+}
+
+.artist-social {
+  margin-top: 15px;
+}
+
+.artist-social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #21c452;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Special Gothic Expanded One";
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.artist-social a:hover {
+  opacity: 0.8;
+  transform: translateX(4px);
+}
+
+
+
